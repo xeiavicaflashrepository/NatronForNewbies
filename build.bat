@@ -6,4 +6,5 @@ GOTO :EOF
 
 :FAILURE
 echo Latexmk failed, quitting.
+pause
 exit /b %errorlevel%
