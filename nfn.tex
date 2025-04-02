@@ -1,0 +1,31 @@
+\documentclass[12pt, oneside, openany, showtrims, letterpaper]{memoir}
+
+\title{Natron For Newbies}
+\author{Created By: Matthew Polk}
+\date{}
+
+% This will rename the title of TOC from "Contents" to something else.
+\renewcommand*{\contentsname}{Table Of Contents}
+
+% This will ensure that Table Of Contents page has no page number.
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
+
+%%<=====================================================================>
+\begin{document}
+\aliaspagestyle{title}{empty}
+\maketitle
+
+\newpage
+\tableofcontents*
+\pagestyle{empty}
+
+
+\cleardoublepage
+
+%%<====================================================================>
+
+\chapter{Introduction}
+
+Intro
+
+\end{document}
