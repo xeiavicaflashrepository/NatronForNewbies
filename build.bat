@@ -1,6 +1,6 @@
 @ECHO OFF
 
-latexmk -output-format=pdf -pdf -latexoption="-8bit -interaction=nonstopmode" nfn.tex || GOTO :FAILURE
+latexmk -output-format=pdf -verbose -pdf -latexoption="-8bit -interaction=nonstopmode" nfn.tex || GOTO :FAILURE
 latexmk -c
 GOTO :EOF
 
