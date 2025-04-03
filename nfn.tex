@@ -1,11 +1,16 @@
-\documentclass[10pt,oneside,openany,letterpaper]{memoir}
+\documentclass[12pt,oneside,openany,letterpaper]{memoir}
+\usepackage{graphicx}
 
 \title{Natron For Newbies}
 \author{Created By: Matthew Polk\\Rough Draft}
 \date{}
 
+\setpnumwidth{3em}
+\setrmarg{4em}
+\setlength{\cftpartnumwidth}{3em}
+
 % Adjusting the margins. This is subject to change.
-\setlrmarginsandblock{0.5in}{1in}{*}
+\setlrmarginsandblock{1.5in}{1.5in}{*}
 \setulmarginsandblock{1in}{1in}{*}
 
 \checkandfixthelayout
@@ -14,7 +19,7 @@
 \renewcommand*{\contentsname}{Table Of Contents}
 
 % This will ensure that Table Of Contents page has no page number.
-\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}} 
+\AtBeginDocument{\addtocontents{toc}{\protect\thispagestyle{empty}}}
 
 %%<=====================================================================>
 \begin{document}
@@ -22,6 +27,7 @@
 \maketitle
 
 \newpage
+
 \tableofcontents*
 \pagestyle{empty}
 
@@ -44,17 +50,18 @@
 %%<=================================================================>
 \part{Natron Usage}
 
-Intro
-
 \chapter{Introduction}
-Introduction
+Natron is a free libre (open source) GPL-2.0 licensed compositor styled after nuke. It can be compared to after effects as well, in the sense it makes visual effects for video clips such as a movie.
 
+\includegraphics[width=5in,height=5in]{imgs/Natron.png} \\
+Image screenshot of natron in action, taken from the natron website.
 
+Head over to https://natrongithub.github.io/ and download it for your OS.
 
 
 
 \section{Installing}
-Installing.
+
 
 
 
@@ -77,7 +84,7 @@ RotoPaint. KeyFraming. Snow. Rain. Particles.
 
 
 \chapter{GMic}
-.
+What is GMic.
 
 
 
@@ -87,7 +94,7 @@ RotoPaint. KeyFraming. Snow. Rain. Particles.
 
 
 \chapter{Colours}
-.
+RGBA
 
 
 
@@ -97,8 +104,7 @@ RotoPaint. KeyFraming. Snow. Rain. Particles.
 
 
 \chapter{Alpha}
-Alpha
-
+RGBA
 
 
 
