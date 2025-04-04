@@ -1,6 +1,5 @@
 # NatronForNewbies
-A (very much WIP) natron e-book, always subject to change that I'm making.
-Don't hestitate to open a pull request or issue if you have a question/comment/suggestion.
+A verbose how to guide on using natron for visual effects and compositing in the form of a static html website. It can be viewed locally in any web browser and is free of JavaScript.
 
-# License
-I'm putting all this under the creative commons (CC BY-SA 4.0 international) license.
+# Licensing
+All this is licensed under the Creative Commons (CC BY-SA 4.0 International) license.
