@@ -2,4 +2,27 @@
 #+SUBTITLE: Early Draft (Pre Release 1)
 #+AUTHOR: Matthew Polk
 
-Testing
+# Table Of Contents for LaTeX export.
+#+LATEX_HEADER: \renewcommand*{\contentsname}{Table Of Contents}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[export]{adjustbox}
+#+LATEX_HEADER: \usepackage[left=1in, letterpaper]{geometry}
+
+#+LATEX: \parindent 0pt
+#+LATEX: \thispagestyle{empty}
+#+LATEX: \newpage
+#+LATEX: \setcounter{page}{1}
+
+* Introduction
+Natron is a vfx compositor designed to be very similar to nuke, which is also
+a compositor for visual effects. If you've ever used nuke, you'll get the hang
+of natron very quickly.
+
+#+LATEX: \includegraphics[width=\linewidth, height=7in, left]{./imgs/Natron.png}
+Natron in action. You'll notice a few things: the top left is the preview
+of what you're creating, the bottom left are the nodes being used, and the
+right panels are the settings for each node.
+#+LATEX: \bigbreak
+
+Now, what is a node? A node is a building block (imagine it like lego) that
+lets you put together pieces for composition.
