@@ -1,7 +1,7 @@
 # NatronForNewbies
-A textbook I'm writing to show you how to effectively use natron, a free compositing application modeled after nuke. While docs and YouTube videos exist, I wanted something more customed tailored to book form with more verbose examples on how you can make the most out of natron. My book is under the CC BY-SA 4.0 International license.
+A textbook I'm writing using GNU Emacs org-mode, for the purpose of fully understanding natron and how to do visual effects and compositing. I decided on org-mode because it's simple markdown and can export to HTML/PDF/LaTeX/ODT (LibreOffice)/others.
 
-Don't hesitate to open a PR or Issue if you got a question/comment/suggestion.
+Don't hestitate to open a pull request or issue if you have a question/comment/suggestion.
 
-# Building
-Run `latexmk -output-format=pdf -output-directory=build -verbose -pdf -latexoption="-8bit -interaction=nonstopmode" nfn.tex` in the root directory of the project.
+# License
+I'm putting all this under the creative commons (CC BY-SA 4.0 international) license.
