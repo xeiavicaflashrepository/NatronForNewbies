@@ -1,5 +1,5 @@
 # NatronForNewbies
-A verbose how to guide on using natron for visual effects and compositing in the form of a static html website. It can be viewed locally in any web browser and is free of JavaScript.
+A PDF e-book created using LaTeX to generate a very verbose how to use guide on natron as well as compositing/visual effects.
 
 # Licensing
-All this is licensed under the Creative Commons (CC BY-SA 4.0 International) license.
+Licensed under the Creative Commons (CC BY-SA 4.0 International) license.
