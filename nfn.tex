@@ -1,5 +1,9 @@
 \documentclass[letterpaper,12pt,oneside]{book}
 \usepackage[utf8]{inputenc}
+% To ensure every single paragraph is indented.
+\usepackage{indentfirst}
+% For image importing
+\usepackage{graphicx}
 % hyperref is to ensure chapters and other anchors
 % are a clickable link.
 \usepackage[pdfpagelabels=false]{hyperref}
@@ -35,8 +39,33 @@
 \chapter{What Is Natron?}
 Welcome aboard, natron is very powerful but takes a bit of learning to
 fully utilize. This chapter is about introducing you to the program.
+
 \bigbreak
+\section{Introduction}
 Natron is a GPL-2.0 licensed visual effect compositor that is very similar to nuke. If you've used nuke, you'll get the hang of natron very quickly. But this document is not just for those wanting to get up to speed with natron if already familiar with nuke. It's also for those who are used to after effects or even have never done compositing before. It really is just a few fundamentals to understand, because they flow between other programs considerably.
+\newpage
+
+% To ensure the image is floating more to the left.
+\begin{figure}[ht!]
+\hspace*{-3cm}
+\centering
+\includegraphics[width=1.2\textwidth, height=7in]{./imgs/Natron.png}
+\end{figure}
+Natron GUI In Action
+
+\newpage
+As pictured above, you'll see several aspects of the natron user interface. FIrstly, to the left, are shortcuts for node groups. To the upper right of that, is the preview area of your clips you're working with. Below that, is the working area for nodes and to the right are properties for every node placed in the working area.
+
+
+\section{Nodes}
+What is a node?
+\bigbreak
+\includegraphics{./imgs/mergenode.png}
+\bigbreak
+A node like pictured above, can be described as like a lego brick.
+You connect input and output ports to modify the results as you desire.
+To me, nodes are far more powerful and flexible compared to layer based compositing such as after effects.
+
 
 
 
