@@ -1,8 +1,9 @@
 \documentclass[letterpaper,12pt,oneside]{book}
 \usepackage[utf8]{inputenc}
-\usepackage{geometry}
-\usepackage{xcolor}
-\usepackage{hyperref}
+% hyperref is to ensure chapters and other anchors
+% are a clickable link.
+\usepackage[pdfpagelabels=false]{hyperref}
+
 
 \title{Natron For Newbies\\Version: Early Working Draft.}
 \author{Written By: Matthew Polk}
@@ -10,32 +11,45 @@
 
 \begin{document}
 %%<----------------------------------------------------------------------------------------->
-\maketitle
-
-\thispagestyle{empty}
+% Bit of trickery to get the title page and TOC the way I wanted it.
+% I renamed the default contents name to be more clear for the
+% end user reading it.
 \renewcommand{\contentsname}{Table of Contents}
+% I had to do a few workaround to ensure the title page was blank
+% for page numbering and the TOC was using roman numerals
+% instead of regular 1,2,3,4....
 \frontmatter
+\hypersetup{pageanchor=false}
+\maketitle
+\hypersetup{pageanchor=true}
+
 \tableofcontents
 \mainmatter
+% Main matter is when the main contents of the document begins.
+%%<--------------------------------------------------------------------------------->
 \pagestyle{plain}
-%%<----Start Of Document------------------------------------------------------->
-% Part 1: How to use natron.
-\part{Natron Usage}
+\part{Using Natron}
+% Part one will be dedicated to how to use natron without how to
+% extending it using python or GLSL or anything like that.
 
-\setcounter{page}{2}
 \chapter{What Is Natron?}
-\newpage
-
-\section{Introduction}
-
-\section{Nodes}
-
-\section{Alpha}
+Welcome aboard, natron is very powerful but takes a bit of learning to
+fully utilize. This chapter is about introducing you to the program.
+\bigbreak
+Natron is a GPL-2.0 licensed visual effect compositor that is very similar to nuke. If you've used nuke, you'll get the hang of natron very quickly. But this document is not just for those wanting to get up to speed with natron if already familiar with nuke. It's also for those who are used to after effects or even have never done compositing before. It really is just a few fundamentals to understand, because they flow between other programs considerably.
 
 
-\newpage
 
-% Part 2: How to extend natron.
+
+
+%%<------------------------------------------------------------------------------------->
 \part{Extending Natron}
+% Part two will be to how to use languages such as python or GLSL
+% to extend natron further should you desire to.
+
+
+
+
+
 
 \end{document}
