@@ -1,5 +1,5 @@
 # NatronForNewbies
-Verbose documentation written using GNU Texinfo that can be exported to HTML, PDF, or even an info file that can be viewed on the command line. It's all pure ASCII, even diagrams, so you have no worry about a feature missing from the info file or plain text export.
+Very verbose documentation on how to effectively use natron for video compositing and special effects. It's just a plain ASCII text document, no fancy formatting of any kind. All you need is a text editor to contribute.
 
 # Licensing
 This document is licensed under the Creative Commons (CC BY-SA 4.0 International) license.
