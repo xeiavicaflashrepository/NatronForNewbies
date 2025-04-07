@@ -1,1 +1,134 @@
-Natron For Newbies!
+/*Note: For readability sake, do NOT go beyond 80 characters*/
++--------------------------------------------------------------------+
+|                                                                    |
+|                         Natron For Newbies!                        |
+|                                                                    |
+|                                                                    |
++--------------------------------------------------------------------+
+
+This project has gone through many different ideas. I settled on plain ASCII
+text because I got exhausted from so many different formats and fighting
+how the documentation looked. ASCII has nothing to hide, that's what I
+like about it. Just get the information out and you're good.
+
+/****************************************************************************/
+/****************START OF DOCUMENT*******************************************/
+/****************************************************************************/
+* NFN
+
+**Using Natron
+***What is Natron?
+
+
+
+
+
+
+
+
+***Compositing Introduction
+
+
+
+
+***Mattes
+
+***Luma-Key, Chroma-Key, Difference, Bump, Keyers, Color Difference.
+
+
+
+
+
+***Composite
+
+
+
+
+
+
+***CGI Compositing
+
+
+***Premultiply
+
+
+
+***Unpremultiply
+
+
+***Blending Operations
+
+
+
+
+***Masks
+
+
+
+
+***Light, Color Correction
+
+
+
+
+
+
+
+
+***Transformations
+
+
+***Video Clips and Image Formats
+
+***Log vs Linear
+
+
+***Alpha
+
+
+
+***RGB vs YUV vs HSV
+
+
+
+
+***Depth
+
+
+
+***Rotoscoping and Rotopaint
+
+
+
+
+**Extending Natron
+
+***GLSL
+
+
+
+***GMic
+
+
+
+
+***Python API
+
+
+
+
+
+
+
+
+
+
+**Closing Thoughts.
+
+
+
+
+
+/****************************************************************************/
+/*******************END OF DOCUMENT******************************************/
+/****************************************************************************/
