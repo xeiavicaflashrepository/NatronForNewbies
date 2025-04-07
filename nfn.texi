@@ -1,0 +1,6 @@
+\input texinfo
+@settitle Natron For Newbies
+
+Testing
+
+@bye
