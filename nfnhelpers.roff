@@ -1,0 +1,16 @@
+\# Lets avoid boilerplate by just making a
+\# convenience macro for new paragraphs.
+.de NEWPAR END
+.sp 1
+.PP
+\\$*
+.END
+\#
+\#
+.de NODEPIC END
+.PS
+A: box at (5, 1) "Node 1"
+B: box at (5, 4) "Node 2"
+C: box at (2, 4) "Node 3";arrow right 2.25;
+.PE
+.END
